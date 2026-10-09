@@ -1,0 +1,17 @@
+# Local environment and build output
+.env
+app/target/
+app/*.log
+
+# Local container data
+docker/postgresql/data/
+rustfs/data/
+
+# IDE files
+.idea/
+*.iml
+
+# Local agent and cloud CLI state
+.agents/
+.codex/
+.aws/
